@@ -5,7 +5,7 @@ on:
 
 env:
   MY_WORKFLOW_VAR: 'workflow'
-  MY_OVERWRITTEN_VAR: 'workflow'
+  MY_OVERWRITTEN_VAR: 'workflow overwritten'
 
 jobs:
   build:
