@@ -1,0 +1,16 @@
+name: Verify VMS
+on: workflow_dispatch
+jobs:
+  my-first-job:
+    runs-on: windows-latest
+    steps:
+      - run: echo "Hello Windows"
+  my-second-job:
+    runs-on: macos-latest
+    steps:
+      - run: echo "Hello macos"
+  my-third-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello macos"
+      
