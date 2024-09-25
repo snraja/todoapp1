@@ -1,0 +1,8 @@
+name: Simple Workflow on Self Hosted Runner
+on: workflow_dispatch
+jobs: 
+  my-first-job:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello World"
+      - run: echo $pwd
