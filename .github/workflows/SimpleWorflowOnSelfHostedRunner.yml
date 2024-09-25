@@ -4,5 +4,5 @@ jobs:
   my-first-job:
     runs-on: self-hosted
     steps:
-      - run: echo "Hello World"
-      - run: echo $pwd
+      - run: dir
+      - run: ver
