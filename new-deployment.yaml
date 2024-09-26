@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: todo-app-container
-          image: <docker-hub-name>/todoapp
+          image: snraja/todoapp_gha
           ports:
             - containerPort: 8081
 ---
